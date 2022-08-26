@@ -1,0 +1,41 @@
+/* Reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: slategray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    line-height: 1.65;
+}
+
+h2 {
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+/*
+align-items = Mengubah posisi Horizontal
+justify-content = Mengubah posisi Vertical
+height: 100vh = Mengatur/menghitung height berdasarkan ukuran layar
+*/
+.flex {
+    display: flex;
+    height: 100vh;
+    /* align-items: center;
+    justify-content: center; */
+}
+
+/*
+Alternatif untuk membuat object ke posisi tengah layar
+menggunakan margin: auto; tanpa harus menggunakan align-items: center; dan justify-content: center;
+*/
+.object {
+    margin: auto;
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+}
